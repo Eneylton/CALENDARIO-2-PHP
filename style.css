@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+}
+
+
+table{
+    width: 100vw;
+    height: calc(100vh - 100px);
+
+}
+
+table th{
+    padding: 20px;
+}
+
+table td{
+    font-size: 2em;
+    font-weight:bold;
+}
+
+table td.other-month{
+    opacity: .4;
+    color:rgba(4, 48, 90, 0.938)
+}
+
+table td,table th{
+
+    text-align: center;
+    font-size: 20px;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+}
